@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; }
+body { @apply bg-stone-100 text-stone-800 antialiased; }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+}
